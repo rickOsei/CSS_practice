@@ -1,0 +1,212 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: #e3edfd;
+	"Google Sans",Roboto,Arial,sans-serif;
+}
+.intro{
+    border: 1px solid gray;
+    border-top: 8px solid rgb(66, 133, 244);;
+	border-radius: 10px;
+/*	margin-right: 500px;
+	margin-left: 500px;*/
+	padding: 1px 10px 15px 20px ;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+/*	font-family: 'Roboto', sans-serif;
+*/	font-size: 15px;
+	font-weight: normal;
+	background-color: white;
+}
+.intro .heading{
+	font-weight: medium;
+	font-size: 30px;
+}
+
+.intro .main-intro{
+	padding-top: 0px;
+}
+
+
+.email,.fullname,.Pnumber,.loc,.school,.reason,.about {
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*margin-right: 500px;
+	margin-left: 500px;*/
+	padding: 30px 10px 10px 20px ;
+	width: 40%;
+	min-width: 20%;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: white;
+	height: 95px;
+/*	font-family: 'Roboto', sans-serif;
+*/	vertical-align: middle;
+}
+
+.PnumberKin{
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*margin-right: 500px;
+	margin-left: 500px;*/
+	padding: 30px 10px 10px 20px ;
+	width: 40%;
+	margin: auto;
+	margin-bottom: 20px;
+	height: 140px;
+/*	font-family: 'Roboto', sans-serif;
+*/    vertical-align: middle;
+    background-color: white;
+}
+
+
+.explanation{
+	font-size: 13px;
+}
+
+.sponsor{
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*margin-right: 500px;
+	margin-left: 500px;*/
+	padding: 30px 10px 10px 20px ;
+	width: 40%;
+	margin: auto;
+	margin-bottom: 20px;
+	height: 150px;
+/*	font-family: 'Roboto', sans-serif;
+*/	vertical-align: middle;
+	background-color: white;
+}
+
+.fees{
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*margin-right: 500px;
+	margin-left: 500px;*/
+	padding: 30px 10px 10px 20px ;
+	width: 40%;
+	margin: auto;
+	margin-bottom: 20px;
+	height: 120px;
+/*	font-family: 'Roboto', sans-serif;
+*/	vertical-align: middle;
+	background-color: white;
+}
+.email input, .fullname input,.Pnumber input,.PnumberKin input,.loc input,.school input,.reason input,.about input {
+	border: none;
+	border-bottom: solid lightgray 1px;
+	width: 50%;
+/*	font-family: 'Roboto', sans-serif;
+*/}
+
+.copy-email{
+	width: 42%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;	
+/*	font-family: 'Roboto', sans-serif;
+*/}
+
+.submit-part{
+	margin: auto;
+	margin-top: 25px;
+	background-color: none;
+	width: 42%;
+	height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*    font-family: 'Roboto', sans-serif;
+*/}
+
+.submit-part input{
+	border-radius: 5px;
+	height: 40px;
+	width: 15%;
+	vertical-align: middle;
+	border-color: #1a73e8;
+	background-color: #1a73e8;
+	color: white;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.submit-part .green{
+	border: 2px solid #0f9d58;
+	border-radius: 7px;
+	background-color: #0f9d58;
+	height: 4px;
+	width: 28%;
+	vertical-align: middle;
+	margin-left: 100px;
+	
+}
+
+.submit-part .page{
+	margin-right: 60px;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+
+.copy-email{
+	color: gray;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.asterix{
+	color: #d93025;
+	}
+
+.warning{
+	width: 42%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	font-size: 13px;	
+}
+
+.privacyNterms{
+	/*background-image: url('./images 1.png');*/
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.symbol img{
+	height: 40px;
+	width: 40px;
+}
+
+#recaptcha{
+	font-family: roboto,mono,sans-serif;
+	color: gray;
+	font-weight: bolder;
+}
+
+#p,#t{
+	font-size: 10px;
+}
+.footer{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+.formslogo{ 
+    width: 50%;
+    margin: auto auto;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    text-align: center;
+    opacity: 59%;
+
+}

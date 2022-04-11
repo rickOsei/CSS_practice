@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>registration form</title>
+		<meta charset="utf-8">
+		<meta name=keyword content="HTML">
+		<meta name=viewport content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="registration-form.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+	</head>
+	<body>
+		<div class="intro">
+			<p class="heading">Codetrain Registration Form</p>
+			<p class="main-intro">There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process. </p><hr>
+			<span id="link"><a href="https://google.com" target="_blank"> Sign in to Google</a> to save your progress. <a href="https://codetraingh.com/" target="_blank">Learn more</a></span><br><br>
+			<span class="asterix">*Required</span>
+		</div> 
+
+		<div class="main">
+			<section class="email">
+				<label for="email"> Email<span class="asterix">*</span></label><br><br><br>
+				<input type="text" name="email" id="email" placeholder="Your email address" required>
+			</section>
+
+			<section class="fullname">
+				<label for="fname"> Full Name<span class="asterix">*</span></label><br><br><br>
+				<input type="text" name="fullname" id="fname" placeholder="Your answer" required>
+			</section>
+
+			<section class="Pnumber">
+				<label for="phone"> Phone Number<span class="asterix">*</span></label><br><br><br>
+				<input type="tel" name="phone" id="phone" placeholder="Your answer" required>
+			</section>
+
+
+            <section class="PnumberKin">
+				<label for="phoneK"> Phone number for next of kin<span class="asterix">*</span></label><br>
+                <span class="explanation">Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</span>
+				<br><br><br>
+				<input type="tel" name="phoneOfKin" id="phoneK" placeholder="Your answer" required>
+			</section>
+
+			 <section class="fees">
+				<span> Can you pay 60% or more of the full Codetrain fees (GHS6000)?<span class="asterix">*</span>
+               </span>
+				<br><br>
+
+				<input type="radio" name="ansfee" id="yes" value="Yes">
+				<label for="yes">Yes</label><br><br>
+
+				<input type="radio" name="ansfee" id="no" value="No">
+				<label for="no">No</label>
+			</section>
+
+			<section class="sponsor">
+				<span>Please indicate who is going to pay your fees <span class="asterix">*</span> </span><br><br>
+				<input type="radio" name="sponsor" id="Yourself">
+				<label for="Yourself">Yourself</label><br><br>
+
+				<input type="radio" name="sponsor" id="Parent">
+				<label for="Parent">Parent/Sponsor</label><br><br>
+
+				<input type="radio" name="sponsor" id="Org">
+				<label for="Org">Organization</label><br><br>
+			</section>
+
+			<section class="loc">
+				<label for="loc">Location <span class="asterix">*</span></label><br><br><br>
+				<input type="text" name="location" id="loc" placeholder="Your answer" required>
+			</section>
+
+			<section class="school">
+				<label for="school">Current or previous school <span class="asterix">*</span></label><br><br><br>
+				<input type="text" name="school" id="school" placeholder="Your answer" required>
+			</section>
+
+			<section class="reason">
+				<label for="why">Why do you want to join Codetrain <span class="asterix">*</span> </label><br><br><br>
+				<input type="text" name="reason" id="why" placeholder="Your answer" required>
+			</section>
+
+			<section class="about">
+				<label for="how">How did you hear about codetrain? <span class="asterix">*</span> </label><br><br><br>
+				<input type="text" name="about" id="how" placeholder="Your answer" required>
+			</section>
+		</div>
+
+        <p class="copy-email"> A copy of your responses will be emailed to the address that you provided. </p>
+		<div class="submit-part">
+			<input type="submit" value="Submit">
+			<div class="green"></div>
+			<div class="page">Page 1 of 1</div>
+            <div class="form"><a href="#">Clear form</a></div>
+		</div>
+
+		<p class="warning"> Never submit passwords through Google Forms.</p>
+
+		<div class="privacyNterms">
+			<div class="symbol"><img src="./download2.png"></div>
+			<p class="pnt"><span id="recaptcha">reCAPTCHA</span><br><span id="p"><a href="#">Privacy</a></span>  <span id="t"><a href="#">Terms</a></span></p>
+		</div>
+
+		<div class="footer">
+			<p>This content is neither created nor endorsed by Google. <a href="#">Report Abuse</a> - <a href="#">Terms of Service</a> - <a href="#">Privacy Policy</a></p>
+		</div>
+
+		<p class="formslogo"> <strong>Google</strong> Forms</p>
+
+	</body>
+  </html>
